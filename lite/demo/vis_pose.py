@@ -488,7 +488,7 @@ def main():
             batched_results[:valid_images_len],
             batch_image_name,
         ):
-            img_save_and_viz(
+            img_save_and_vis(
                 i.numpy(),
                 r,
                 os.path.join(args.output_root, os.path.basename(img_name)),
